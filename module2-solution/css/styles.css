@@ -1,0 +1,87 @@
+/********** Base styles **********/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 15px;
+  text-align: center;
+}
+
+.box {
+  background-color: #ffffff;
+  margin: 10px;
+  border: 3px solid black;
+  background-color: #aeaeae;
+  overflow: auto;
+  text-overflow: ellipsis;
+  position: relative;
+  height: 200px
+}
+
+.box-header {
+  width: 40%;
+  padding: 4px;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  font-family: Helvetica;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+}
+
+#chicken {
+  background-color: rgb(200, 140, 140);
+}
+
+#beef {
+  background-color: rgb(193, 69, 67);
+  color: white;
+}
+
+#sushi {
+  background-color: rgb(230, 209, 152);  
+}
+
+p {
+  position: relative;
+  top: 10%;
+  font-family: Helvetica;
+  color: black;
+  margin: 16px;
+}
+
+/* Simple Responsive Framework. */
+
+.row {
+  padding: 10px;
+  width: 100%;
+}
+
+/********** Large devices only (Desktop) **********/
+
+@media (min-width: 992px) {
+  /* Desktop Device with 3 columns, so size 4+4+4=12 */
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only (Tablet) **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Tablet Device uses 2 columns, so size 6+6=12 */
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}

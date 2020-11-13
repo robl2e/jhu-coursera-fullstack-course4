@@ -1,0 +1,58 @@
+/** HEADER **/
+
+#header-nav {
+    background-color: #e6e6e6;
+    border-radius: 0;
+    border: 0;
+}
+
+/** BRAND **/
+.navbar-brand h1 {
+    color: #373737;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style-type: none;
+    border: 1px solid black;
+}
+
+/** Navigation List **/
+
+#nav-list a {
+    color: #1a1919;
+    text-align: center;
+}
+
+#nav-list li {
+    color: #1a1919;
+    text-align: center;
+    background: #3eceee;
+    border-bottom: 1px solid black;
+}
+
+#nav-list li:last-child {
+    border-bottom: none
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+/** Content Column **/
+.box {
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    background-color: #e6e6e6;
+}
